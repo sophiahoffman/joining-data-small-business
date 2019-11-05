@@ -1,5 +1,16 @@
-const message = "Your Webpack application is set up and ready to go. Please start writing code."
+import API from "./API.js"
+import cards from "./DOMmanager.js"
 
-document.querySelector("#container").innerHTML = `<h1>${message}</h1>`
 
-console.log(message)
+
+API.getEmployees()
+.then(response => {
+    console.log(response)
+    response.forEach( r => {
+    let name = r.name
+    let department = r.departments.dept
+    let computer = r.computers.model
+    cards.employeeCards (name, department, computer)
+    } )
+})
+

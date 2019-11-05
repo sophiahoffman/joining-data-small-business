@@ -1,24 +1,106 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    },
-    {
-      "id": 2,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+      "employees": [
+        {
+          "id": 1,
+          "name": "john doe",
+          "departmentsId": 1,
+          "computersId": 1
+        },
+        {
+          "id": 2,
+          "name": "jane doe",
+          "departmentsId": 2,
+          "computersId": 2
+        },
+        {
+          "id": 3,
+          "name": "tarzan",
+          "departmentsId": 3,
+          "computersId": 3
+        },
+        {
+          "id": 4,
+          "name": "dan ryan",
+          "departmentsId": 3,
+          "computersId": 4
+        },
+        {
+          "id": 5,
+          "name": "prince william",
+          "departmentsId": 1,
+          "computersId": 5
+        },
+        {
+          "id": 6,
+          "name": "prince harry",
+          "departmentsId": 2,
+          "computersId": 6
+        }
+      ],
+      "departments": [
+        {
+          "id": 1,
+          "dept": "human resources"
+        },
+        {
+          "id": 2,
+          "dept": "information technology"
+        },
+        {
+          "id": 3,
+          "dept": "accounting"
+        }
+      ],
+      "computers": [
+        {
+        "id": 1,
+        "model": "surface",
+        "serial": "12345678"
+      },
+      {
+        "id": 2,
+        "model": "surface",
+        "serial": "23456789"
+      },
+      {
+        "id": 3,
+        "model": "surface",
+        "serial": "34567890"
+      },
+        {
+        "id": 4,
+        "model": "surface",
+        "serial": "12345678"
+      },
+      {
+        "id": 5,
+        "model": "surface",
+        "serial": "23456789"
+      },
+      {
+        "id": 6,
+        "model": "surface",
+        "serial": "34567890"
+      },
+        {
+        "id": 7,
+        "model": "surface",
+        "serial": "12345678"
+      },
+      {
+        "id": 8,
+        "model": "surface",
+        "serial": "23456789"
+      },
+      {
+        "id": 9,
+        "model": "surface",
+        "serial": "34567890"
+      },
+      {
+        "id": 10,
+        "model": "surface",
+        "serial": "45678901"
+      }
+    ]
 }
